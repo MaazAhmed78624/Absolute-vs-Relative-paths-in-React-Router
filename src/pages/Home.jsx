@@ -5,7 +5,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const navigationHandler = () => {
-    navigate("recipes")
+    navigate("/recipes")
   }
 
   return (

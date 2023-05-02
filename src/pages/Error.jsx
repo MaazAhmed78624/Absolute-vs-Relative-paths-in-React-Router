@@ -6,7 +6,7 @@ const Error = () => {
     <>
         <h1>404</h1>
         <p>Not Found</p>
-        <Link to="..">Back to home</Link>
+        <Link to="/">Back to home</Link>
     </>
   )
 }

@@ -13,9 +13,9 @@ const router = createBrowserRouter([
     element: <SharedLayout />,
     errorElement: <Error />,
     children: [
-      { path: "", element: <Home /> },
-      { path: "recipes", element: <Recipes /> },
-      { path: "recipes/:recipeId", element: <RecipeDetail /> },
+      { path: "/", element: <Home /> },
+      { path: "/recipes", element: <Recipes /> },
+      { path: "/recipes/:recipeId", element: <RecipeDetail /> },
     ],
   },
 ]);

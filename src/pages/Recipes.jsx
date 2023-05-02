@@ -15,7 +15,7 @@ const Recipes = () => {
         {DUMMY_RECIPES.map((recipe) => {
           return (
             <li key={recipe.id}>
-              <Link to={recipe.id}>{recipe.title}</Link>
+              <Link to={`/recipes/${recipe.id}`}>{recipe.title}</Link>
             </li>
           );
         })}
